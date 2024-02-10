@@ -8,6 +8,7 @@ edition = "2021"
 [dependencies]
 argh = "0.1.12"
 glutin = { version = "0.31.2", default-features = false, features = ["egl", "wayland"] }
+rand = "0.8.5"
 raw-window-handle = "0.5.2"
 smithay-client-toolkit = "0.18.0"
 wayland-backend = { version = "0.3.3", features = ["client_system"] }
